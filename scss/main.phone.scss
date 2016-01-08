@@ -1,0 +1,68 @@
+
+@media screen and (min-width: $screen-phone) {
+  .img-separate-section {
+    .background-info {
+      background: url('../img/carwiseHeroImage900.jpg');
+      background-position: center 0px;
+      background-size: cover;
+      height: 370px;
+      background-repeat: no-repeat;
+      min-height: 100% !important;
+      max-width: 100% !important;
+    }
+  }
+
+  .search-section {
+    position: absolute;
+    /*bottom: 0;*/
+    top: 262px;
+    left: 0;
+    right: 0;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: #00a5db;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+
+  .search-section h1 {
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 21px;
+    color:#fff;
+  }
+
+  .search-section input {
+    height: 45px;
+    border-radius: 0;
+    font-size: 18px;
+    text-shadow: none;
+    font-family: "Roboto Condensed", "Arial Narrow", "HelveticaNeueCondensed", "HelveticaNeue-Condensed", "Helvetica Neue Condensed", "Tahoma", "Arial", "San Serif", sans-serif;
+    box-shadow: none;
+    border: 0;
+  }
+
+  .search-section .form-inline .input-group {
+    width: 100%;
+  }
+
+  .search-section button.btn.btn-default {
+    font-size: 17px;
+    height: 45px;
+    border-radius: 0;
+    background-color: #f48200;
+    background-image: none;
+    border: 0;
+    color: #fff;
+    text-shadow: none;
+    padding-top: 5px;
+    transition: all 200ms ease-out;
+    -webkit-transition: all 200ms ease-out;
+  }
+
+  .search-section button.btn.btn-default span.glyphicon.glyphicon-search {
+    font-size: 15px;
+    margin-right: 9px;
+  }
+}

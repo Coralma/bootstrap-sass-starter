@@ -1,2 +1,15 @@
 @import '../lib/bootstrap-sass/assets/stylesheets/bootstrap';
+@import 'main.phone';
+@import 'main.desktop';
 
+.navbar-inverse {
+  background: rgba(0, 0, 0, 0.6);
+  border-color: #090909;
+}
+
+
+/*
+@media (min-width: 1120px) .search-container {
+  padding: 25px;
+}
+*/
